@@ -1,0 +1,93 @@
+body{
+    background-color: blueviolet;
+}
+h1{
+    text-align: center;
+    color: aqua;
+    margin-top: 50px;
+}
+.screen{
+    background-color: rgb(11, 11, 7);
+    border: solid black 2px;
+    color: aliceblue;
+    font-size: medium;
+    width: 109%;
+    cursor: default;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+input[type='button']:hover{
+    background-color: white;
+
+}
+input[type='button']:active{
+    background-color: rgb(218, 39, 39);
+    
+}
+.operator{
+    /* text-align: center; */
+    background-color: orange;
+    padding: 10px;
+    color: black;
+    border: solid black 2px;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+}
+.number{
+    padding: 5px;
+    height: 40px;
+    color: black;
+    border: solid crimson 2px;
+    width: 100%;
+    cursor: zoom-in;
+}
+.decimal{
+    /* text-align: center; */
+    background-color: rgb(207, 232, 240);
+    padding: 10px;
+    color: black;
+    border: solid black 2px;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+}
+.clear{
+    
+    background-color: rgb(44, 102, 227);
+    padding: 5px;
+    color: black;
+    border: solid black 2px;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.equal{
+    /* text-align: center; */
+    background-color: rgb(224, 235, 245);
+    padding: 10px;
+    color: black;
+    border: solid black 2px;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+}
+.container{
+    /* text-align: center; */
+    background-color: rgb(242, 240, 237);
+    padding: 15px;
+    color: black;
+    border: solid black 2px;
+    width: 80%;
+    display: block;
+    align-self: center;
+    margin: 100px auto;
+    border-radius: 10px;
+    box-shadow: 5px 10px 20px black;
+}
+table{
+    width: 100%;
+}
